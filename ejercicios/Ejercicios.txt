@@ -1,0 +1,62 @@
+🟢 Nivel Básico – Lógica y fundamentos
+Pide dos números y una operación (+, -, *, /) y muestra el resultado.
+
+Solicita un número y muestra si es par o impar.
+
+Pide tres números distintos y muestra cuál es el mayor.
+
+Muestra la tabla de multiplicar del 1 al 10 de un número ingresado por el usuario.
+
+Crea un contador que imprima del 1 al 100, pero si el número es múltiplo de 3 muestra "Fizz", de 5 "Buzz" y de ambos "FizzBuzz".
+
+Calcula la suma de los primeros 100 números naturales.
+
+Verifica si una palabra ingresada es un palíndromo (se lee igual al revés).
+
+Pide una edad y responde si es menor de edad, mayor de edad o jubilado.
+
+Cuenta cuántas vocales tiene una palabra ingresada.
+
+Genera un número aleatorio del 1 al 10 y permite al usuario adivinarlo.
+
+🟡 Nivel Intermedio – Funciones y Arrays
+Crea una función que invierta una cadena de texto.
+
+Escribe una función que reciba un array y devuelva el número mayor.
+
+Haz una función que calcule el factorial de un número.
+
+Implementa una función que verifique si todos los elementos de un array son del mismo tipo (números, strings, etc.).
+
+Crea una función que reciba una cadena y devuelva cuántas veces aparece cada letra.
+
+Haz una función que elimine los duplicados de un array.
+
+Ordena un array de números de menor a mayor sin usar .sort().
+
+Escribe una función que reciba un número y diga si es primo o no.
+
+Simula una calculadora usando funciones para cada operación básica.
+
+Haz una función que convierta una oración a "lenguaje hacker" (ejemplo: "a" → "4", "e" → "3").
+
+🔴 Nivel Avanzado – Objetos, Métodos y DOM
+Crea un objeto "persona" con nombre, edad y método que salude.
+
+Haz un sistema de notas (array de objetos con nombre y nota) que calcule el promedio.
+
+Simula un carrito de compras con funciones para agregar, quitar y listar productos.
+
+Haz una función que reciba un string en formato JSON y lo convierta en objeto.
+
+Crea una pequeña interfaz HTML que permita añadir elementos a una lista y eliminarlos con un botón (manipulación del DOM).
+
+Implementa una función que filtre un array de objetos según una propiedad.
+
+Simula un sistema de inicio de sesión con validación simple (nombre de usuario y contraseña).
+
+Agrega un evento click a un botón que muestre un contador que aumenta cada vez que haces clic.
+
+Crea un cronómetro que inicie, pause y reinicie.
+
+Haz una función que consuma una API pública y muestre datos en pantalla (por ejemplo, nombres de países, clima o usuarios).
