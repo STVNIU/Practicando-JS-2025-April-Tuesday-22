@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 2</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form action="">
+      <h1>Clinica veterinaria</h1>
+
+      <p>
+        <label for="nombreMascota">Ingrese el nombre de la mascota:</label
+        ><br />
+        <input
+          type="text"
+          id="nombreMascota"
+          class="input--border"
+          required
+        /><br />
+      </p>
+
+      <p>
+        <label for="tipoMascota"
+          >Ingrese el tipo de mascota(perro, gato, etc):</label
+        ><br />
+        <input
+          type="text"
+          id="tipoMascota"
+          required
+          class="input--border"
+        /><br />
+      </p>
+
+      <p>
+        <label for="planDeSalud">La mascota tiene plan de salud:</label><br />
+        <select id="planDeSalud" required>
+          <option value="si">Si</option>
+          <option value="no">No</option></select
+        ><br />
+      </p>
+
+      <input type="submit" value="Enviar" class="button" />
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>

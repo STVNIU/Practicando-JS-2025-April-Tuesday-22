@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Welcome to Temu</h1>
+      <!-- Nombre del producto - Categoría - Precio -->
+      <form action="">
+        <p>
+          <label for="nombreProducto">Ingrese nombre del producto</label><br />
+          <input type="text" id="nombreProducto" name="nombre" required />
+        </p>
+
+        <p>
+          <label for="categoria">Categoria</label><br />
+          <input type="text" id="categoria" required />
+        </p>
+
+        <p>
+        <label for="dia">Día</label><br />
+          <select id="dia" required>
+            <option value="">Seleccione un día</option>
+            <option value="lunes">Lunes</option>
+            <option value="martes">Martes</option>
+            <option value="miércoles">Miércoles</option>
+            <option value="jueves">Jueves</option>
+            <option value="viernes">Viernes</option>
+            <option value="sábado">Sábado</option>
+            <option value="domingo">Domingo</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="precio">Precio</label><br />
+          <input type="number" id="precio" />
+        </p>
+
+        <p>
+          <input type="submit" value="Enviar" />
+        </p>
+      </form>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
